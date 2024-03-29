@@ -1,0 +1,24 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+:root{
+  --bold : #ff6547;
+  --primary :#fffb5e;
+  --middle :#262007;
+  --secondary :#90827b;
+  --light: #ff9fc1;
+}
+
+.container{
+  border: 2px solid red;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid yellow;
+  width : 100px;
+}
